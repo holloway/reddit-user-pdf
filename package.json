@@ -1,0 +1,14 @@
+{
+  "name": "reddit-user-pdf",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ghostscript4js": "^3.1.1",
+    "puppeteer": "^2.0.0",
+    "semver": "^7.0.0"
+  },
+  "bin": {
+    "reddit-user-pdf": "./cli.js"
+  }
+}
