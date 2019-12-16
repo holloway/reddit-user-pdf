@@ -9,7 +9,11 @@
 
 `reddit-user-pdf` is a command line tool that should be installed globally
 
-- `npm install --~global reddit-user-pdf` or `yarn global add reddit-user-pdf`
+- `npm install --global reddit-user-pdf`
+
+or if you prefer Yarn
+
+- `yarn global add reddit-user-pdf`
 
 ## Usage
 
@@ -17,7 +21,11 @@ Assuming you've installed it for command line run the command,
 
 `reddit-user-pdf REDDIT_USERNAME`
 
-Wait several minutes for it to make the PDF at `REDDIT_USERNAME-MERGED.pdf`. There will also be `urls-REDDIT_USERNAME.json` with some metadata.
+Where `REDDIT_USERNAME` is the username you want.
+
+Depending on the amount of posts that user has made it can take several minutes (perhaps up to 10 minutes) to make the PDF.
+
+When complete it the PDF will be available at `REDDIT_USERNAME-MERGED.pdf`. There will also be `urls-REDDIT_USERNAME.json` with some metadata. There will also be PDFs for each page that you can delete.
 
 ## Dev Install
 
